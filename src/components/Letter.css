@@ -1,0 +1,53 @@
+/* src/components/Letter.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    color: #ff69b4;
+  }
+  
+  .message-box {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .envelope {
+    cursor: pointer;
+  }
+  
+  .sticker {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .modal h2 {
+    color: #ff69b4;
+  }
+  
+  .modal-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @keyframes sparkle {
+    0% {
+      opacity: 0;
+      transform: scale(0);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.5);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(0);
+    }
+  }
+  
+  
